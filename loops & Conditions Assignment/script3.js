@@ -155,7 +155,7 @@ console.log("total positive number is :"+cnt);
 Start with ₹1000 balance. Ask withdrawal amount 3 times.
 If enough balance → deduct
 Else → print “Insufficient balance”
-
+*/
 
 let balance = 1000;
 for(let i=1;i<=3;i++){
@@ -178,5 +178,5 @@ for(let i=1;i<=3;i++){
 
 console.log("no more withdrawals allowed");
 
-*/
+
 
