@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#4e54c8;
+}
+
+.container{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  width:330px;
+  text-align:center;
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+#city{
+  width:90%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:5px;
+  border:1px solid #555;
+}
+
+#btn{
+  padding:10px 20px;
+  border:none;
+  background:#6a11cb;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+#result{
+  margin-top:20px;
+  font-size:18px;
+  font-weight:bold;
+}
